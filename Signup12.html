@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>YarnStory-Home</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+	 crossorigin="anonymous">
+	 <link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" type="text/css" href="css/stylesp12.css">
+	<link rel="stylesheet" type="text/css" href="css/style12.css">
+</head>
+<body>
+<header>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation" style="height: height: 60px; padding-top: 2px;"> 
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#" style="font-family: 'Cookie',cursive; color: #E67E22; font-size:36px; margin-right: 22px; ">Yarn story</a>
+			</div>
+	
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse navbar-ex1-collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="home.html" style="padding: 3px 40px;font-size: 20px;
+	margin-top: 15px;">Home</a></li>
+					<li><a href="Tutorial.html" style="padding: 3px 40px;font-size: 20px;
+	margin-top: 15px;">Tutorial</a></li>
+					<li><a href="shopping.html" style="padding: 3px 40px;font-size: 20px;
+	margin-top: 15px;">Shop</a></li>
+					<li><a href="About.html" style="padding: 3px 40px;font-size: 20px;
+	margin-top: 15px;">About us</a></li>
+					<li><a href="Contact.html" style="padding: 3px 40px;font-size: 20px;
+	margin-top: 15px;">Contact us</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a data-toggle="modal" href='#modal-id'><img style="width: 25px;margin-top:0;" src="imgs/icon/user.svg" alt=""></a></li>
+					<li><a href="#"><img style="width: 25px; margin-top:0;" src="imgs/icon/search.svg" alt=""></a></li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</div>
+	</nav>
+</header>
+<!--NAV *********************************************************** -->
+<main>
+	
+			<div class="signup">
+				<div class="container">
+					<div class="modal-content khoi-modal1 col-sm-6">	
+						<div class="header">
+							<h5 class="welcom text-center">Sign Up</h5>
+							
+						</div>
+			
+						<div class="modal-body">
+			
+			
+							<form action="" method="POST">
+								<div class="fullname">
+									<label for="">Full Name</label>
+									<div class="inputduoi">
+										<input type="text" placeholder="Name..." name="namesignup" id="namesignup" required>
+										<div class="inputborder"></div>
+										<i class="fas fa-check" id="checkfullname"></i>
+									</div>
+									<div class="help-block" id="fullname-error" style="color: red;display: block">
+										fullname phai it nhat 4 nhieu nhat 20 ky tu
+									</div>
+								</div>
+								<!-- hetfull name -->
+			
+								<div class="email-signup">
+									<label for="">Email</label>
+									<div class="inputduoi">
+										<input type="email" placeholder="Email address..." name="email" id="emailsignup" required>
+										<div class="inputborder"></div>
+										<i class="fas fa-check" id="checkfullname"></i>
+									</div>
+									<div class="help-block" id="fullname-error" style="color: red;display: block">
+										mail@example.com
+									</div>
+								</div>
+								<!-- hetfull email -->
+			
+								<div class="username">
+									<label for="">Username</label>
+									<div class="inputduoi">
+										<input type="text" placeholder="Username..." name="usernamesingup" id="username" required>
+										<div class="inputborder"></div>
+										<i class="fas fa-check" id="checkfullname"></i>
+									</div>
+									<div class="help-block" id="fullname-error" style="color: red;display: block">
+										username phai it nhat 4 nhieu nhat 20 ky tu
+									</div>
+								</div>
+								<!-- het username -->
+			
+								<div class="password">
+									<label for="">Password</label>
+									<div class="inputduoi">
+										<input type="password" placeholder="**********" name="password" id="password" required>
+										<div class="inputborder"></div>
+										<i class="fas fa-check" id="checkfullname"></i>
+									</div>
+									<div class="help-block" id="fullname-error" style="color: red;display: block">
+										password phai it nhat 6 ky tu
+									</div>
+								</div>
+								<!-- het password -->
+			
+								<div class="confirm">
+									<label for="">Confirm Password</label>
+									<div class="inputduoi">
+										<input type="password" placeholder="**********" name="comfirmpassword" id="confirm" required>
+										<div class="inputborder"></div>
+										<i class="fas fa-check" id="checkfullname"></i>
+									</div>
+									<div class="help-block" id="fullname-error" style="color: red;display: block">
+										nhap lai password phai giong voi password
+									</div>
+								</div>
+								<!-- endconfirm -->
+								<div class="checkbox">
+									<input type="checkbox" name="" id="checkbox"> I agree to the
+									<a href="" class="txt2">Terms of User</a>
+									<div class="help-block" id="fullname-error" style="color: red;display: block">
+										check box please!
+									</div>
+								</div>
+			
+								<!-- end checkbox -->
+			
+								<div class="btn-singup">
+									<button type="submit" class="btn btn-outline-info" id="submitsingup">sign up</button>
+									<a href="" class="tosingup">Login
+										<i class="fas fa-long-arrow-alt-right"></i>
+									</a>
+								</div>
+							</form>
+			
+			
+						</div>
+			
+					</div>	
+
+					<div class="banner col-sm-6">
+					<img src="imgs/story.jpg" style="height: 893.3px; width: 550px">
+					</div>
+				</div>
+			</div>
+	
+</main>
+
+
+<!--FOOTER **************************************************** -->
+<footer>
+	<div class="footer">
+	<div class="container">
+		<div class="footer-info">
+			<div class="first">
+				<h3>Head Office</h3>
+				<h4>Ho Chi Minh</h4>
+				<p>
+					Address: 212-214 Nguyen Dinh Chieu, <br>
+					District 3<br>
+					Phone: 1800 1525<br>
+					Email: arena@aprotrain.com
+				</p>
+					<h4>Hanoi</h4>
+				<p>
+					Address: 80 Truc Khe, Dong Da District<br>
+					Phone: (024) 3773 8108<br>
+					Email: arena2@aprotrain.com<br>
+				</p>
+			</div>
+			<div class="second">
+				<h3>Community</h3>
+				
+						<a href=""><p>Announcements</p></a>
+						<a href="">
+							<p>Answer center</p>
+						</a>
+						<a href="">
+							<p>Discussion boards</p>
+						</a>
+						<a href="">
+							<p>Groups</p>
+						</a>
+						<a href="">
+							<p>Top shared</p>
+						</a>
+					
+			</div>
+			<div class="third">
+				<h3>Tools & Apps</h3>
+				
+						<a href="">
+							<p>Mobile apps</p>
+						</a>
+						<a href="">
+							<p>Downloads</p>
+						</a>
+						<a href="">
+							<p>Security center</p>
+						</a>
+						<a href="">
+							<p>Site map</p>
+						</a>
+						
+					
+			</div>
+			<div class="forth">
+				<h3>Get to know us</h3>
+				
+						<a href="">
+							<p>Terms Condition</p>
+						</a>
+						<a href="">
+							<p>Contact us</p>
+						</a>
+						<a href="">
+							<p>Complain & Claim</p>
+						</a>
+						<a href="">
+							<p>Return Policy</p>
+						</a>
+						<a href="">
+							<p>Order Tutorial</p>
+						</a>
+					
+				<h3>Follow us on</h3>
+			</div>
+		</div>
+		<div class="copyright">
+		
+			<div class="copy-left">
+				<p>Yarm Story © 2018. All Rights Reserved. Click here for privacy policy.</p>
+			</div>
+			<div class="copy-right">
+				<p>Powered by Wordpress. Designed by DiTaHoLi.</p>
+			</div>
+		</div>
+	</div>
+	</div>
+</footer>
+
+<!--Footer *************************** -->
+<!-- MODAL SIGN IN************************************** -->
+	
+	<div class="modal fade" id="modal-id">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h2>Sign in</h2>
+					<div class="form-group">
+							
+							<div class="email-signup">
+								<div class="inputduoi name">
+									<input type="text" name="email" id="emailsign" required="">
+									<div class="inputborder"></div>
+									<label for="">Email or Phone number</label>
+								</div>
+								<!-- ERROR****************** -->
+								<div class="help-block" id="fullname-error" style="color: red;display: block">
+									tai khoan khong ton tai
+								</div>
+								<!-- ERROR****************** -->
+
+							</div>
+							
+							<div class="password-signup">
+								<div class="inputduoi name">
+									<input type="password" name="password" id="password" required="">
+									<div class="inputborder"></div>
+									<label for="">Password</label>
+								</div>
+								<!-- ERROR****************** -->
+								<div class="help-block" id="fullname-error" style="color: red;display: block">
+									tai khoan khong ton tai
+								</div>
+								<!-- ERROR****************** -->
+
+							</div>
+							
+						</div>
+						<div class="signup-modal">
+							<button type="submit" class="btn sign-button"><p>Sign in</p></button>
+
+							<div class="or">
+								<div class="inline-line"></div>
+								<p style="text-align: center; margin: 18px 0 50px; font-size: 18px;">Or <a href="">Sign in</a> with</p>
+								<div class="inline-line"></div>
+							</div>
+
+							<a class="sign-icon" href=""> 
+								<button>
+									<div class="icon-button">
+										<img src="imgs/icon/facebook-logo.svg" alt="" style="width: 25px; height: 25px;">
+										<p>Facebook</p>
+									</div>
+								</button>
+							</a>
+							<a class="sign-icon" href=""> 
+								<button>
+									<div class="icon-button">
+										<img src="imgs/icon/google-plus.svg" alt="" style="width: 25px; height: 25px;">
+										<p>Google+</p>
+									</div>
+								</button>
+							</a>
+							<a class="sign-icon" href=""> 
+								<button>
+									<div class="icon-button">
+										<img src="imgs/icon/twitter.svg" alt="" style="width: 25px; height: 25px;">
+										<p>Twitter</p>
+									</div>
+								</button>
+							</a>
+						</div>
+					</form>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+<!-- MODAL LOGIN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="js/slick.js"></script>
+<script src="js/1.js"></script>
+</body>
+</html>

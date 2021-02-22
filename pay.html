@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>YarnStory-Home</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/pay.css">
+</head>
+<body>
+<header>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation" style="height: height: 60px; padding-top: 2px;"> 
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="home.html" style="font-family: 'Cookie',cursive; color: #E67E22; font-size:36px; margin-right: 22px; ">Yarn story</a>
+			</div>
+	
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse navbar-ex1-collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="home.html" style="padding: 3px 40px;font-size: 20px;
+	margin-top: 15px;">Home</a></li>
+					<li><a href="Tutorial.html" style="padding: 3px 40px;font-size: 20px;
+	margin-top: 15px;">Tutorial</a></li>
+					<li><a href="shopping.html" style="padding: 3px 40px;font-size: 20px;
+	margin-top: 15px;">Shop</a></li>
+					<!-- <li><a href="About.html" style="padding: 3px 40px;font-size: 20px;
+	margin-top: 15px;">About us</a></li>
+					<li><a href="About.html" style="padding: 3px 40px;font-size: 20px;
+	margin-top: 15px;">Contact us</a></li> -->
+					<li><a href="Signup.html" style="padding: 3px 40px;font-size: 20px;
+	margin-top: 15px;">Sign up</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a data-toggle="modal" href='#modal-id'><img style="width: 25px;margin-top:0;" src="imgs/icon/user.svg" alt=""></a></li>
+					<li><a href="Cart.html"><img style="width: 25px; margin-top:0;;" src="imgs/icon/cart.png" alt=""></a></li>
+					<li><a href="#"><img style="width: 25px; margin-top:0;" src="imgs/icon/search.svg" alt=""></a></li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</div>
+	</nav>
+</header>
+<main>
+	<div class="pay-page">
+		<div class="container">
+			<div class="check-top">
+					<div class="process-no">
+					<button class="number one">1</button>
+					<div class="connect one"></div>
+					<button class="number two">2</button>
+					<div class="connect two"></div>
+					<button class="number three">3</button>
+					</div>
+					<div class="step">
+						<p class="first">Login</p>
+						<p class="second">Check out</p>
+						<p class="third">Payment</p>
+					</div>
+			</div>
+
+			<h4 class="pay-title">Choose your payment method</h4>
+			<div class="choose">
+
+				<div class="choose-left">
+					
+					<div class="checkbox">
+						
+						<label>
+							<input type="checkbox" value="" class="box">
+							<span>Pay at delivery</span>
+						</label>
+					</div>
+					<div class="checkbox">
+						<label>
+							<input type="checkbox" value="">
+							<span>Paypal</span>
+						</label>
+					</div>
+					<div class="checkbox">
+						<label>
+							<input type="checkbox" value="">
+							<span>Visa</span>
+						</label>
+					</div>
+				</div>
+				<div class="choose-right">
+					<div class="signup-box">
+						<!-- <div class="sign-left"> -->
+							<form class="form-box" method="POST" role="form">
+							
+								<div class="form-group">
+
+									<div class="email-signup">
+										<div class="inputduoi name">
+											<input type="text" name="email" id="emailsign" required="">
+											<div class="inputborder"></div>
+											<label for="">Account name</label>
+										</div>
+										<!-- ERROR****************** -->
+										<div class="help-block" id="fullname-error" style="color: red;display: block">
+											tai khoan khong ton tai
+										</div>
+										<!-- ERROR****************** -->
+
+									</div>
+								<div class="inline">
+									<div class="username-signup">
+										<div class="inputduoi name " style="width: 237px;">
+											<input type="text" name="username" id="username" required="">
+											<div class="inputborder" "></div>
+											<label for="">CVV</label>
+										</div>
+										<!-- ERROR****************** -->
+										<div class="help-block" id="fullname-error" style="color: red;display: block">
+											tai khoan khong ton tai
+										</div>
+										<!-- ERROR****************** -->
+
+									</div>
+								
+									<div class="password-signup">
+										<div class="inputduoi name" style="width: 237px;">
+											<input type="password" name="password" id="password" required="">
+											<div class="inputborder"  "></div>
+											<label for="">Expired date</label>
+										</div>
+										<!-- ERROR****************** -->
+										<div class="help-block" id="fullname-error" style="color: red;display: block">
+											tai khoan khong ton tai
+										</div>
+										<!-- ERROR****************** -->
+
+									</div>
+								</div>
+
+									<div class="password1-signup">
+										<div class="inputduoi name">
+											<input type="password" name="password" id="password1" required="">
+											<div class="inputborder"></div>
+											<label for="">Account number</label>
+										</div>
+										<!-- ERROR****************** -->
+										<div class="help-block" id="fullname-error" style="color: red;display: block">
+											tai khoan khong ton tai
+										</div>
+										<!-- ERROR****************** -->
+
+									</div>
+								</div>
+							</form>
+						</div>
+				</div>
+				<!-- CHOOSE -->
+			</div>
+			<div class="pay-seperator"></div>
+			<h4 class="ship-title">Shipping Method</h4>
+			<div class="ship-method">
+				
+				<div class="ship-left">
+					
+					<div class="checkbox">
+						
+						<label>
+							<input type="checkbox" value="" class="box">
+							<span> $ 4.00 - Premium Delivery (arrived in 1-2 days)</span>
+						</label>
+					</div>
+					<div class="checkbox">
+						<label>
+							<input type="checkbox" value="">
+							<span>Normal Delivery (arrived in 5-7 days) </span>
+						</label>
+					</div>
+					<div class="checkbox">
+						<label>
+							<input type="checkbox" value="">
+							<span>Self-Pick up</span>
+						</label>
+					</div>
+				</div>
+				<div class="ship-right">
+					<div class="cart-sum">
+							<div class="subtotal">
+								<h4>Subtotal</h4>
+								<p>$ 50.00</p>
+								<div class="underline"></div>
+							</div>
+							<div class="vat">
+								<h4>VAT (<span>10%</span>)</h4>
+								<p>$ 5.00</p>
+								<div class="underline"></div>
+							</div>
+							<div class="vat">
+								<h4>Shipping </h4>
+								<p>$ 4.00</p>
+								<div class="underline"></div>
+							</div>
+							<div class="vat">
+								<h4>Discount Code </h4>
+								<p>$ -5.00</p>
+								<div class="underline"></div>
+							</div>
+							<div class="total">
+								<h4>Total</h4>
+								<p>$ 54.00</p>
+								<div class="underline"></div>
+							</div>
+							
+							
+							
+					</div>
+
+				</div>
+			</div>
+			<div class="pay-seperator"></div>
+					<div class="overview">
+						<h4 style="margin-bottom: 24px"> Summary</h4>
+						<div class="middle">
+							<div class="address-left">
+								<table class="table table-hover">
+									<thead>
+										<tr>
+											<th>Address</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr >
+											<td style="padding-top: 24px;">Trang Linh Bui</td>
+
+										</tr>
+										<tr>
+											<td>238 Hoang Quoc Viet Street, Co Nhue Wart</td>
+
+										</tr>
+										<tr>
+											<td>Cau Giay District</td>
+
+										</tr>
+										<tr>
+											<td>Hanoi, 10000</td>
+
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<div class="pay-right">
+								<table class="table table-hover">
+									<thead>
+										<tr>
+											<th>Payment</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr >
+											<td style="padding-top: 24px;">Credit Card</td>
+
+										</tr>
+										<tr>
+											<td>100x xxxx xxxx xxxx</td>
+
+										</tr>
+										<tr>
+											<td>Expired Date: xx - 2x</td>
+
+										</tr>
+										<tr>
+											<td>xxx</td>
+
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+						<div class="bill">
+							<table class="table table-hover">
+								<thead>
+									<tr>
+										<th class="bo-right quan">No.</th>
+										<th class="bo-right item">Product</th>
+										<th class="bo-right sku">SKU</th>
+										<th class="bo-right price">Price</th>
+										
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<th class="bo-right ">01</th>
+										<th class="bo-right">FA Sock Pumpkin</th>
+										<th class="bo-right">YFAC92f00</th>
+										<th class="bo-right">$ 10.00</th>
+										
+									</tr>
+									<tr>
+										<th class="bo-right ">01</th>
+										<th class="bo-right">FA Sock Pumpkin</th>
+										<th class="bo-right">YFAC92f00</th>
+										<th class="bo-right">$ 10.00</th>
+										
+									</tr>
+									<tr>
+										<th class="bo-right ">01</th>
+										<th class="bo-right">FA Sock Pumpkin</th>
+										<th class="bo-right">YFAC92f00</th>
+										<th class="bo-right">$ 10.00</th>
+										
+									</tr>
+									
+									<tr>
+										<th class="bo-right ">01</th>
+										<th class="bo-right">FA Sock Pumpkin</th>
+										<th class="bo-right">YFAC92f00</th>
+										<th class="bo-right">$ 10.00</th>
+										
+									</tr>
+									<tr>
+										<th class="bo-right ">01</th>
+										<th class="bo-right">Shipping</th>
+										<th class="bo-right">YFAC92f00</th>
+										<th class="bo-right">$ 4.00</th>
+										
+									</tr>
+									
+								</tbody>
+								<tbody class="bottom-sum">
+										<tr>
+											<td></td>
+											<td></td>
+											<td style="padding-top: 24px;font-weight: bold;">Subtotal :</td>
+											<td style="padding-top: 24px;">$ 50.00</td>
+											
+										</tr>
+										<tr>
+											<td></td>
+											<td></td>
+											<td style="font-weight: bold;">VAT(10%) :</td>
+											<td > $ 5.00</td>
+											
+										</tr>
+										<tr>
+											<td></td>
+											<td></td>
+											<td style="font-weight: bold;">Discount Code :</td>
+											<td > $ -5.00</td>
+											
+										</tr>
+										<tr>
+											<td></td>
+											<td></td>
+											<td style="font-weight: bold;">Total : </td>
+											<td >$ 54.00</td>
+											
+										</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="choose-button">
+							<button type="button" class="btn btn-default pay-but">Go back</button>
+							<button type="button" class="btn btn-default pay-but">Purchase</button>
+						</div>
+					</div>
+		</div>
+	</div>
+</main>
+
+
+<!--FOOTER **************************************************** -->
+<footer>
+	<div class="footer">
+	<div class="container">
+		<div class="footer-info">
+			<div class="first">
+				<h3>Head Office</h3>
+				<h4>Ho Chi Minh</h4>
+				<p>
+					Address: 212-214 Nguyen Dinh Chieu, <br>
+					District 3<br>
+					Phone: 1800 1525<br>
+					Email: arena@aprotrain.com
+				</p>
+					<h4>Hanoi</h4>
+				<p>
+					Address: 80 Truc Khe, Dong Da District<br>
+					Phone: (024) 3773 8108<br>
+					Email: arena2@aprotrain.com<br>
+				</p>
+			</div>
+			<div class="second">
+				<h3>Community</h3>
+				
+						<a href=""><p>Announcements</p></a>
+						<a href="">
+							<p>Answer center</p>
+						</a>
+						<a href="">
+							<p>Discussion boards</p>
+						</a>
+						<a href="">
+							<p>Groups</p>
+						</a>
+						<a href="">
+							<p>Top shared</p>
+						</a>
+					
+			</div>
+			<div class="third">
+				<h3>Tools & Apps</h3>
+				
+						<a href="">
+							<p>Mobile apps</p>
+						</a>
+						<a href="">
+							<p>Downloads</p>
+						</a>
+						<a href="">
+							<p>Security center</p>
+						</a>
+						<a href="">
+							<p>Site map</p>
+						</a>
+						
+					
+			</div>
+			<div class="forth">
+				<h3>Get to know us</h3>
+				
+						<a href="">
+							<p>Terms Condition</p>
+						</a>
+						<a href="">
+							<p>Contact us</p>
+						</a>
+						<a href="">
+							<p>Complain & Claim</p>
+						</a>
+						<a href="">
+							<p>Return Policy</p>
+						</a>
+						<a href="">
+							<p>Order Tutorial</p>
+						</a>
+					
+				<h3>Follow us on</h3>
+				<div class="follow-icon">
+					<img style="width: 25px;height: 25px;" src="imgs/icon/facebook.svg" alt="">
+					<img style="width: 25px;height: 25px;" src="imgs/icon/twitter.svg" alt="">
+					<img style="width: 25px;height: 25px;" src="imgs/icon/instagram-logo.svg" alt="">
+					<img style="width: 25px;height: 25px;" src="imgs/icon/youtube.svg" alt="">
+				</div>
+			</div>
+		</div>
+		<div class="copyright">
+		
+			<div class="copy-left">
+				<p>Yarm Story © 2018. All Rights Reserved. Click here for privacy policy.</p>
+			</div>
+			<div class="copy-right">
+				<p>Powered by Wordpress. Designed by DiTaHoLi.</p>
+			</div>
+		</div>
+	</div>
+	</div>
+</footer>
+<!--Footer *************************** -->
+<!-- MODAL SIGN IN************************************** -->
+	
+	<div class="modal fade" id="modal-id">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h2>Sign in</h2>
+					<div class="form-group">
+							
+							<div class="email-signup">
+								<div class="inputduoi name">
+									<input type="text" name="email" id="emailsign" required="">
+									<div class="inputborder"></div>
+									<label for="">Email or Phone number</label>
+								</div>
+								<!-- ERROR****************** -->
+								<div class="help-block" id="fullname-error" style="color: red;display: block">
+									tai khoan khong ton tai
+								</div>
+								<!-- ERROR****************** -->
+
+							</div>
+							
+							<div class="password-signup">
+								<div class="inputduoi name">
+									<input type="password" name="password" id="password" required="">
+									<div class="inputborder"></div>
+									<label for="">Password</label>
+								</div>
+								<!-- ERROR****************** -->
+								<div class="help-block" id="fullname-error" style="color: red;display: block">
+									tai khoan khong ton tai
+								</div>
+								<!-- ERROR****************** -->
+
+							</div>
+							
+						</div>
+						<div class="signup">
+							<button type="submit" class="btn sign-button"><p>Sign in</p></button>
+
+							<div class="or">
+								<div class="inline-line"></div>
+								<p style="text-align: center; margin: 18px 0 50px; font-size: 18px;">Or <a href="">Sign in</a> with</p>
+								<div class="inline-line"></div>
+							</div>
+
+							<a class="sign-icon" href=""> 
+								<button>
+									<div class="icon-button">
+										<img src="imgs/icon/facebook-logo.svg" alt="" style="width: 25px; height: 25px;">
+										<p>Facebook</p>
+									</div>
+								</button>
+							</a>
+							<a class="sign-icon" href=""> 
+								<button>
+									<div class="icon-button">
+										<img src="imgs/icon/google-plus.svg" alt="" style="width: 25px; height: 25px;">
+										<p>Google+</p>
+									</div>
+								</button>
+							</a>
+							<a class="sign-icon" href=""> 
+								<button>
+									<div class="icon-button">
+										<img src="imgs/icon/twitter.svg" alt="" style="width: 25px; height: 25px;">
+										<p>Twitter</p>
+									</div>
+								</button>
+							</a>
+						</div>
+					</form>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+<!-- MODAL LOGIN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="js/1.js"></script>
+</body>
+</html>
+
+
