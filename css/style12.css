@@ -1,0 +1,329 @@
+body{
+	background: #f6f6f6;
+}
+
+/*MAIN*************************/
+.trend {
+	width: 100%;
+}
+.tittle {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+	margin-top: 24px;
+	border-bottom: 1px solid #dcdcdc;
+}
+.trendy-img{
+	display: flex;
+	justify-content: space-between;
+}
+.carol-img-detail img{
+	margin: 26px 40px 14px 40px;
+}
+.tutorial {
+	width: 100%;
+	height: 780px;
+}
+/*.tutor-photo{
+	margin-top: 24px;
+}*/
+.tutor-photo{
+	width:100%;
+	
+}
+.tutor-detail{
+	display: flex;
+	justify-content: space-between;
+	width:342.63px;
+}
+.tutor-detail .photo img{
+	margin-top: 24px;
+	width:342.63px;
+	height: 257.58px;
+}
+.tutor-detail .photo-info h4{
+	font-size:18px;
+}
+.footer{
+	/*height: 394px;*/
+	width: 100%;
+	background: #2C3E50;
+	margin-top: 40px;
+}
+.footer-info{
+	display: flex;
+	justify-content: space-between;
+	margin: 40px 0;
+	color: #fff;
+}
+.footer-info h3{
+	font-size: 20px;
+}
+.footer-info h4{
+	font-size: 18px;
+	font-weight: normal;
+}
+.footer-info a p{
+	color: #fff;
+}
+.copyright{
+	padding: 24px 0;
+	border-top: 1px solid #666;
+	display: flex;
+	justify-content: space-between;
+}
+.copyright p{
+	color: #fff;
+}
+/*MODAL********************/
+
+.modal-open .modal {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.fade.show {
+    opacity: 1;
+}
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    display: none;
+    overflow: hidden;
+    outline: 0;
+}
+.fade {
+    opacity: 0;
+    transition: opacity 0.15s linear;
+}
+.modal-header{
+	border: none;
+	padding: 33px;
+}
+.modal-dialog {
+	margin-top: 40px;
+}
+.modal-header .close{
+	margin-top: -14px;
+	right: 10px;
+}
+/*FORM************************/
+.form-box{
+	padding: 40px 32px 50px;
+}
+.form-box h1{
+	font-size: 36px;
+	color: #E67E22;
+}
+.inputduoi.name{
+	border-bottom: 1px solid rgba(204, 204, 204, 0.74);
+	margin-bottom: 5px;
+	width: 507px;
+}
+
+.inputduoi{
+	position: relative;
+}
+.name input{
+	color: #aaa;
+}
+.form-group .error{
+	display: none
+}
+ .form-group input{
+	border: none;
+	transition: 0.7s;
+	outline: none;
+	/* width: 100%; */
+	padding: 10px;
+	background: none;
+} 
+
+
+/*cÃ¡i dÃ²ng nÃ y cÃ³ nghÄ©a lÃ  khi ta forcus vÃ o trong input vÃ  input pháº£i Ä‘Ãºng (khÃ´ng Ä‘Æ°á»£c bá» trá»‘ng) thÃ¬ nÃ³ sáº½ thá»±c hiá»‡n cÃ¡c dÃ²ng css á»Ÿ dÆ°á»›i*/
+/*cÃ¡i dáº¥u + lÃ  viÃªt cho cÃ¡i tháº±ng ngang hÃ ng vá»›i nÃ³
+vidu e focus vÃ o thÄƒng input muá»‘n nÃ³ tÃ¡c Ä‘á»™ng lÃªn tháº±ng  class="inputborder" thÃ¬ viáº¿t input#fullname:focus + .inputborder{...}
+
+cÃ²n e  focus vÃ o tháº±ng input muá»‘n nÃ³ tÃ¡c Ä‘á»™ng lÃªn tháº±ng label thÃ¬ e pháº£i input#fullname:focus + .inputborder + label
+nghÄ©a lÃ  pháº£i + qua tháº±ng .inputborder ná»¯a rá»“i má»›i + Ä‘áº¿n tháº±ng label khÃ´ng Ä‘Æ°á»£c  bá» qua tháº±ng .inputborder
+input#fullname:focus + .inputborder cÃ¡i nÃ y lÃ  viáº¿t css cho tháº±ng .inputborder cÃ²n muá»‘n viáº¿t cho tháº±ng label thÃ¬ pháº£i cá»™ng qua tháº±ng 
+.inputborder 
+*/
+/*vd e xÃ³a dÃ²ng input#fullname:valid + .inputborder + label*/
+/*thÃ¬ khi e bá» focus thÃ¬ cÃ¡i chá»¯ nÃ³ sáº½ trÃ¹ng vÃ o chá»¯ fullname*/
+/*tiáº¿p nhÃ© cÃ¡i dÃ²ng input#fullname:valid Ä‘á»ƒ khi mÃ¬nh nháº­p Ä‘Ãºng thÃ¬ nÃ³ sáº½ á»Ÿ trÃªn khÃ´ng xuá»‘ng ná»¯a 
+cai :valid nÃ³ hoáº¡t Ä‘á»™ng kiá»ƒu nhÆ° kiá»ƒm tra cÃ¡i require trong html náº¿u khÃ´ng Ä‘Ãºng nÃ³ sáº½ bÃ¡o sai
+:valid thÃ¬ trong input html pháº£i cÃ³ require má»›i kiá»ƒm tra Ä‘Æ°á»£c 2 cÃ¡i Ä‘Ã³ Ä‘i Ä‘Ã´i vá»›i nhau*/
+
+.form-group input:focus{ /*cai dong nay e da hiá»ƒu chÆ°a cÃ¡i nÃ y lÃ  viáº¿t cho khi mÃ¬nh focus vÃ o cÃ¡i input thÃ¬ nÃ³ sáº½ kÃ­ch hoáº¡t cÃ¡i css transition*/
+	transition: 0.7s; transition /*lÃ  Ä‘á»ƒ cho thá»i gian chuyá»ƒn Ä‘á»™ng*/
+}
+
+
+
+
+.name label{
+	position: absolute;
+	top: 6px;
+	left: 5px;
+	/*font-family: 'Montserrat', sans-serif;*/
+	transition: 0.5s all;
+	color:#aaa;
+	pointer-events: none;
+	font-size: 18px;
+}
+label{
+	display: inline-block;
+	margin-bottom: .5rem;
+}
+/*.name input:focus .inputborder label{
+	top: -20px;
+	font-size: 15px;
+	left: 0;
+	opacity: 1;
+}*/
+#fullname-error {
+    opacity: 0;
+    visibility: hidden;
+    margin-bottom: 6px;
+  }
+
+/*EMAIL**********************/
+.btn.sign-button{
+	border: 2px solid #E67E22;
+	background: none;
+	margin-top: 15px;
+}
+.sign-button p{
+	font-size: 18px;
+	padding: 16px 215px;
+	text-transform: uppercase;
+	margin: -10px;
+	color: #E67E22;
+}
+
+
+.sign-icon button{
+	border-radius: 4px;
+	background: #2C3E50;
+	border: 2px solid #2C3E50;
+	margin-bottom: 24px;
+	width: 512px;
+
+}
+.sign-icon button .icon-button{ 
+	display: inline-flex;
+	/*justify-content: space-around;*/
+	padding: 1px 166px;
+
+	
+}
+
+.sign-icon button .icon-button p{
+	font-size: 26px;
+	color: #fff;
+	margin-top: 4px;
+
+}
+
+.sign-icon button .icon-button img{
+
+	margin-top: 10px;
+    margin-right: 20px;
+}
+.or{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 16px;
+}
+.or .inline-line{
+	height: 2px;
+	width: 161px;
+	background:  #757B80;
+	margin-top: 31px;
+
+}
+.sign-icon button:hover{
+	background: none;
+	color: #757B80;
+}
+
+.sign-icon button:hover .icon-button p{
+	color: #757B80;
+}
+
+/*.sign-icon button:hover .icon-button img{
+	background: #757B80;
+}*/
+/*CAROUSEL BUTTOn******************************/
+.carousel-control.left {
+     background-image: none;
+    background-image: none;
+     background-image: none;
+     background-image: none;
+    filter: none;
+     /*background-repeat: repeat-x; */
+}
+.carousel-control.right {
+ background-image: none;
+    background-image: none;
+     background-image: none;
+     background-image: none;
+    filter: none;
+     /*background-repeat: repeat-x; */}
+/*SLIDE*********************************************/
+
+.slide ul.slick-dots li button {
+		border-radius: 50%;
+		width: 15px;
+		height: 15px;
+		background: #dcdcdc;
+		text-indent: 99999px;
+		margin-right: 20px;
+		outline: none;
+		border: none;
+	}
+
+	.slide ul.slick-dots li.slick-active button {
+		background: #E67E22;
+	}
+
+	.slide ul.slick-dots {
+		list-style: none;
+		display: flex;
+		justify-content: center;
+	}
+.next-slick2 {
+		width: 25px;
+		height: 25px;
+		position: absolute;
+		top: 47%;
+		right: -2%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		/*background: none;*/
+		border-radius:50%;
+		border: none;
+		background: #acacac;
+		color: #fff;
+	}
+	.prev-slick2{
+		width: 25px;
+		height: 25px;
+		position: absolute;
+		top: 47%;
+		left: -2%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		/*background: none;*/
+		border-radius:50%;
+		border: none;
+		background: #acacac;
+		color: #fff;
+	}

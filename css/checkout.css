@@ -1,0 +1,119 @@
+.check-top{
+	width: 821px;
+	margin:80px auto;
+}
+.process-no{
+	display: flex;
+	justify-content: flex-start;
+}
+.number.one{
+	color: #fff;
+	width: 45px;
+	height: 45px;
+	border-radius: 2px;
+	border: 2px solid #E67E22;
+	background: #E67E22;
+}
+.number.two{
+	color: #E67E22;
+	width: 45px;
+	height: 45px;
+	border-radius: 2px;
+	border: 2px solid #E67E22;
+	background: none;
+	font-size: 24px;
+}
+.number.three{
+	color: #787878;
+	width: 45px;
+	height: 45px;
+	border-radius: 2px;
+	border: 2px solid #aaa;
+	background: none;
+}
+.connect.two{
+	background: #aaa;
+	width: 343px;
+}
+.step{
+	display: flex;
+	justify-content: space-between;
+}
+.connect{
+	height: 2px;
+	width: 330px;
+	background: #E67E22;
+	margin-top: 22px;
+
+}
+.step{
+	margin-top: 28px;
+	font-size: 24px;
+}
+p.first{
+	font-size: 18px;
+	color: #E67E22;
+}
+p.second{
+	font-size: 24px;
+	color: #E67E22;
+}
+p.third{
+	font-size: 18px;
+	color: #aaa;
+}
+/*FORM*****************************/
+.check-form{
+	margin: 0 auto;
+	width: 686px;
+	margin-bottom: 55px;
+}
+.form-group{
+	display: flex;
+	justify-content: space-between;
+}
+input.form-control{
+	border:none;
+	background: none;
+	box-shadow: none;
+	border-radius: 0;
+	border-bottom: 1px solid #aaa;
+	outline: none;
+	/*font-size: 18px;*/
+
+}
+
+label.checkout{
+	width: 160px;
+	margin-right: 40px;
+	color: #E67E22;
+	font-weight: normal;
+	font-size: 18px;
+}
+label.check-ori{
+	width: 120px;
+	margin-right: 40px;
+	color: #E67E22;
+	font-weight: normal;
+	font-size: 18px;
+}
+.origin{
+	display: flex;
+	justify-content: space-between;
+}
+button.pay{
+	float: right;
+	margin-top: 64px;
+	background: none;
+	border: 2px solid #E67E22;
+	color: #E67E22;
+	font-size: 18px;
+	padding: 10px 40px;
+	font-weight: bold;
+	margin-bottom: 60px;
+}
+button.pay:hover{
+	background: #E67E22;
+	color: #fff;
+	border: 2px solid #E67E22;
+	}

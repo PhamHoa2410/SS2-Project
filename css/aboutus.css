@@ -1,0 +1,97 @@
+
+body {
+	background-color: #FFFCF8;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+h2{
+	font-size: 30px;
+	font-weight: medium;
+	margin-top: 80px;
+}
+button{
+	background-color: #FFFCF8;
+	border: solid 2px #E67E22;
+	border-radius: 4px;
+	padding:14px 47px 14px 47px;
+	margin-top: 48px
+}
+*{
+	padding: 0;
+	margin: 0
+}
+ .banner{
+	width: 1111px;
+	height: 500px;
+	background-color: #e4e6e7;
+}
+/*Phan Brand va Story*/
+.content1{
+	width: 100%;
+	height: 1035px;
+	background-color: #f8f2e6;
+	display: flex;
+	flex-direction: row;
+}
+ .content1 .left-content1{
+	height: 300px;
+	width: 550px;
+	float: left;
+}
+.content1 .right-content1{
+	height: 300px;
+	width: 550px;
+	float: right;
+	margin-top: 90px
+}
+/*------SHOPPING VA TUTORIAL------*/
+.content2{
+	width: 100%;
+	height: 1035px;
+	display: flex;
+	flex-direction: row;
+}
+ .content2 .left-content1{
+	height: 300px;
+	width: 550px;
+	float: left;
+}
+.content2 .right-content1{
+	height: 300px;
+	width: 550px;
+	float: right;
+}
+ .content2 .left-content1 a{
+ 	font-size: 24px;
+ 	color: #F49200;
+ 	text-decoration: none
+ }
+
+ .content2 .right-content1 a{
+ 	font-size: 24px;
+ 	color: #F49200;
+ 	text-decoration: none
+ }
+
+/*----------OURTEAM---------*/
+
+.content3{
+	width: 100%;
+	height: 600px;
+	background-color: #f8f2e6;
+	
+}
+.content3 .container{
+	display: flex;
+	flex-direction: row; 
+	justify-content: space-around;
+}
+.content3 .team{
+	width: 200px;
+	height: 200px;
+	margin-top: 36px;
+}
+.content3 .team img{
+	border-radius: 50%
+}
