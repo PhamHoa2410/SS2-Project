@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk-13">
+		<attributes>
+			<attribute name="module" value="true"/>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v9.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="D:/download/SE2/Jar/catalina-6.0.18.jar"/>
+	<classpathentry kind="lib" path="D:/download/SE2/Jar/dloadtag.jar"/>
+	<classpathentry kind="lib" path="D:/download/SE2/Jar/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/download/SE2/Jar/java-json.jar"/>
+	<classpathentry kind="lib" path="D:/download/SE2/Jar/javax.mail.jar"/>
+	<classpathentry kind="lib" path="D:/download/SE2/Jar/jstl-api-1.2-sources.jar"/>
+	<classpathentry kind="lib" path="D:/download/SE2/Jar/junit-4.13.jar"/>
+	<classpathentry kind="lib" path="D:/download/SE2/Jar/mysql-connector-java-5.1.48.jar"/>
+	<classpathentry kind="lib" path="D:/download/SE2/Jar/mysql-connector-java-8.0.22.jar"/>
+	<classpathentry kind="lib" path="D:/download/SE2/Jar/taglibs-standard-impl-1.2.5.jar"/>
+	<classpathentry kind="lib" path="D:/download/SE2/Jar/tomcat-api-9.0.43.jar"/>
+	<classpathentry kind="lib" path="D:/download/SE2/Jar/tomcat-catalina-ant-9.0.43.jar"/>
+	<classpathentry kind="lib" path="D:/download/SE2/Jar/tomcat-juli-9.0.1.jar"/>
+	<classpathentry kind="lib" path="D:/download/SE2/Jar/tomcat-juli-9.0.43.jar"/>
+	<classpathentry kind="lib" path="D:/download/SE2/Jar/tomcat-servlet-api-9.0.43.jar"/>
+	<classpathentry kind="lib" path="D:/download/SE2/Jar/tomcat-util-9.0.1.jar"/>
+	<classpathentry kind="lib" path="D:/download/SE2/Jar/tomcat-util-9.0.43.jar"/>
+	<classpathentry kind="lib" path="D:/download/SE2/Jar/tomcat-util-scan-9.0.43.jar"/>
+	<classpathentry kind="lib" path="D:/download/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/download/commons-vfs2-2.7.0.jar"/>
+	<classpathentry kind="lib" path="D:/download/hadoop-hdfs-client-3.3.0.jar"/>
+	<classpathentry kind="lib" path="D:/download/jackson-annotations-2.10.3.jar"/>
+	<classpathentry kind="lib" path="D:/download/jackson-core-2.10.3.jar"/>
+	<classpathentry kind="lib" path="D:/download/jackson-databind-2.10.3.jar"/>
+	<classpathentry kind="lib" path="D:/download/okhttp-2.7.5.jar"/>
+	<classpathentry kind="lib" path="D:/download/okio-1.6.0.jar"/>
+	<classpathentry kind="lib" path="D:/download/commons-fileupload-1.4-bin/commons-fileupload-1.4.jar"/>
+	<classpathentry kind="lib" path="D:/download/commons-fileupload-1.4-bin/commons-fileupload-1.4-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/download/commons-fileupload-1.4-bin/commons-fileupload-1.4-sources.jar"/>
+	<classpathentry kind="lib" path="D:/download/commons-fileupload-1.4-bin/commons-fileupload-1.4-tests.jar"/>
+	<classpathentry kind="lib" path="D:/download/commons-fileupload-1.4-bin/commons-fileupload-1.4-test-sources.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
