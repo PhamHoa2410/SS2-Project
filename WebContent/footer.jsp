@@ -48,7 +48,7 @@
 			</div>
 			
 			<div class="copy-right animated wow fadeInUp" data-wow-delay=".5s">
-				<p>&copy 2017 HUTECH ACOUSTIC SHOP.</p>
+				<p>&copy 2021 HUTECH ACOUSTIC SHOP.</p>
 			</div>
 		</div>
 	</div>

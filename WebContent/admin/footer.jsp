@@ -9,7 +9,7 @@
     <body>
 
         <div id="footer">
-            © Copyright 2017 HutechAcousticShop, Giữ toàn quyền nội dung |  
+            © Copyright 2021 HutechAcousticShop, Giữ toàn quyền nội dung |  
             Thiết kế bởi<a href="http://hutechacousticshop.com/" rel="nofollow" target="_blank"> HutechAcousticShop</a><br>
         </div>
 
