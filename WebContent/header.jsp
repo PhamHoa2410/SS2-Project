@@ -1,8 +1,3 @@
-<%-- 
-    Document   : header
-    Created on : 28-Feb-2017, 22:23:06
-    Author     : NguyenDang
---%>
 
 <%@page import="java.text.DecimalFormat"%>
 <%@page import="get.BrandGet"%>

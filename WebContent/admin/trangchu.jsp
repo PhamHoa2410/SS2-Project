@@ -1,8 +1,4 @@
-<%-- 
-    Document   : trangchu
-    Created on : 13-Mar-2017, 21:21:27
-    Author     : NguyenDang
---%>
+
 
 <%@page import="model.UserAdmin"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

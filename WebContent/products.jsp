@@ -1,8 +1,3 @@
-<%-- 
-    Document   : products
-    Created on : 01-Mar-2017, 11:15:04
-    Author     : NguyenDang
---%>
 
 <%@page import="java.text.DecimalFormat"%>
 <%@page import="get.BrandGet"%>

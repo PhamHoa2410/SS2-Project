@@ -1,8 +1,4 @@
-<%-- 
-    Document   : thankyou
-    Created on : 02-Mar-2017, 22:35:11
-    Author     : NguyenDang
---%>
+
 
 <%@page import="get.ProductGet"%>
 <%@page import="model.Product"%>

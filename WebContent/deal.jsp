@@ -1,8 +1,4 @@
-<%-- 
-    Document   : deal
-    Created on : 02-Mar-2017, 21:08:14
-    Author     : NguyenDang
---%>
+
 
 <%@page import="model.User"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

@@ -1,7 +1,4 @@
-<%-- 
-    Document   : thankyou
-    Created on : 02-Mar-2017, 22:35:11
-    Author     : NguyenDang
+hor     : NguyenDang
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

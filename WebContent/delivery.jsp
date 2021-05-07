@@ -1,8 +1,4 @@
-<%-- 
-    Document   : deal
-    Created on : 02-Mar-2017, 21:08:14
-    Author     : NguyenDang
---%>
+
 
 <%@page import="java.text.DecimalFormat"%>
 <%@page import="model.Cart"%>

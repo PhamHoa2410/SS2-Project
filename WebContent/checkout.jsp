@@ -1,8 +1,3 @@
-<%-- 
-    Document   : checkout
-    Created on : 02-Mar-2017, 13:25:01
-    Author     : NguyenDang
---%>
 
 <%@page import="java.text.DecimalFormat"%>
 <%@page import="get.ProductGet"%>

@@ -1,8 +1,4 @@
-<%-- 
-    Document   : footer
-    Created on : 28-Feb-2017, 22:24:46
-    Author     : NguyenDang
---%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>

@@ -1,8 +1,3 @@
-<%-- 
-    Document   : header
-    Created on : 03-Mar-2017, 09:44:28
-    Author     : NguyenDang
---%>
 
 <%@page import="model.UserAdmin"%>
 <%@page import="model.User"%>

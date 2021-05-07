@@ -1,8 +1,4 @@
-<%-- 
-    Document   : single
-    Created on : 01-Mar-2017, 15:38:25
-    Author     : NguyenDang
---%>
+
 
 <%@page import="java.text.DecimalFormat"%>
 <%@page import="get.BrandGet"%>

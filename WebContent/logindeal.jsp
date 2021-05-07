@@ -1,8 +1,3 @@
-<%-- 
-    Document   : login
-    Created on : 28-Feb-2017, 22:51:25
-    Author     : NguyenDang
---%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>

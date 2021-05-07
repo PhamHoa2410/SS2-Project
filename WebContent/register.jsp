@@ -1,8 +1,4 @@
-<%-- 
-    Document   : register
-    Created on : 01-Mar-2017, 23:13:32
-    Author     : NguyenDang
---%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
