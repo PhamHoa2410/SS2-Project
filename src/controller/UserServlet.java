@@ -58,7 +58,7 @@ public class UserServlet extends HttpServlet {
                 users.setUserPhone(request.getParameter("phone"));       
                 userGet.insertUser(users);             
                 session.setAttribute("user", users);
-                url = "/navigate.jsp";   
+                url = "/MusicShop/navigate.jsp";   
                 break;
               case "update":
                   long user_id = Long.parseLong(request.getParameter("user_id"));
@@ -68,13 +68,13 @@ public class UserServlet extends HttpServlet {
         boolean role = Boolean.parseBoolean(request.getParameter("role"));
         String phone = request.getParameter("phone");
                        userGet.updateUser(new User(user_id, username, useremail, password, role, phone));
-                        url = "/myaccount.jsp";
+                        url = "/MusicShop/myaccount.jsp";
                         break; 
             case "logindeal":
                 users = userGet.login(request.getParameter("name"), (request.getParameter("pass")));                
                 if (users != null) {
                     session.setAttribute("user", users);
-                    url = "/deal.jsp";        
+                    url = "/MusicShop/deal.jsp";        
                 }
                 break;
               
@@ -89,7 +89,7 @@ public class UserServlet extends HttpServlet {
                 
                 else{
                     request.setAttribute("error", "Lỗi tên đăng nhập hoặc mật khẩu");
-                    url = "/login.jsp";
+                    url = "/MusicShop/login.jsp";
                 }
                 break;
                 
